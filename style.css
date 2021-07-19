@@ -1,0 +1,33 @@
+
+.container{
+    background-color: mediumblue;
+    display: flex; 
+    justify-content:center;
+    text-align:center;
+    border: bisque;
+    margin: 25px;
+    height:800px;
+}
+.photo img{
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+.para h1 {
+    color: lightcyan;
+    font-family:serif;
+    font-size:90px;
+    margin-top: 200px;
+   
+    
+}
+.para p{
+    color:orangered;
+    font-size: 30px;
+    font-family: serif;
+    background-color:seagreen;
+    width:max-content;
+    margin-left: 350px;
+    
+}
+
