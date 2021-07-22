@@ -38,15 +38,16 @@ body{
 }
 .button{
     background: #E02C6D;
-    font-size: 16px;
+    font-size: 20px;
     color:#FFFFFF;
 }
 .nav-button{
     width:123px;
     height:44px;
+   
 }
-.nav-login-button:hover{
-    cursor: pointer;
+.nav-button-Login:hover{
+     coursor:linear
 }
 /* CSS rule for Navbar */
 
@@ -74,7 +75,7 @@ body{
 }
 .watch-button a{
     color:#FFFFFF;
-    text-decoration: none;
+    text-decoration:none;
 }
 .watch-button:hover{
     transform: scale(1.1);
@@ -238,11 +239,25 @@ body{
     align-items: center;
 }
 
-.fa-twitter, 
-.fa-youtube,.fa-instagram,.fa-basketball-ball{
-    color:#989899;
+
+
+.icon img{
+    width:32px;
+    height:32px;
+    
+    
 }
+
+
+/* footer icon :hover */
+.footer-social-icon :hover{
+    transform: scale(1.5);
+    transition:transform linear 1s
+}
+/* footer icon :hover */
+
 /* CSS rule for footer */
+
 
 /* Media Queries for Mobile Devices up 480px*/
 
